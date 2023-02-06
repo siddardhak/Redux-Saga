@@ -7,7 +7,7 @@ const Poll = () => {
 
     const dispatch = useDispatch();
 
-    const SidVotes = PollItemVotes.find((items) => items.name === 'Sid');
+    const SidVotes = PollItemVotes.find((items) => items.name === 'Sid ');
     const SiddardhaVotes = PollItemVotes.find((items) => items.name === 'Siddardha');
     const lolVotes = PollItemVotes.find((items) => items.name === 'lol');
 
